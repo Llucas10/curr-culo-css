@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.informations{
+    border-radius: 5px;
+    width: 40vw;
+    height: 100vh; 
+    background-color: rgba(201, 201, 201, 0.555);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+li{
+    font-weight: 500;
+}
+
+hr{
+    border: 1px solid rgb(167, 167, 167);
+}
+
+section{
+    margin: 15px;
+    color: white;
+    line-height: 1.2rem;
+}
+
+.bola{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+}
+
+.bola img{
+    position: relative;
+    bottom: 60px;
+    width:100%;
+}
+
+.name{
+    display: flex;  
+    gap: 15px;
+}
+
+.text{
+    color: white;
+    font-size: 15px;
+    line-height: 10px;
+}
